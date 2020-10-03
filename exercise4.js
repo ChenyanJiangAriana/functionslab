@@ -5,7 +5,7 @@ fetch("https://jsonplaceholder.typicode.com/todos")
          (i,todo) => todo.completed ? i+1 : i
      ,0
      )
-     console.log(totalCompleted)
+     console.log(totalCompleted);
   })
   .catch(function(err){ 
     console.log(err);
